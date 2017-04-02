@@ -17,8 +17,6 @@ public class AppTest {
 		String baseUrl = "http://newtours.demoaut.com";
 		String expectedTitle = "Welcome: Mercury Tours";
 		String actualTitle = "";
-
-		// launch Fire fox and direct it to the Base URL
 		driver.get(baseUrl);
 
 		// get the actual value of the title
