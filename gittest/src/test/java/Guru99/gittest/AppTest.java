@@ -18,7 +18,6 @@ public class AppTest {
 		String expectedTitle = "Welcome: Mercury Tours";
 		String actualTitle = "";
 		driver.get(baseUrl);
-
 		// get the actual value of the title
 		actualTitle = driver.getTitle();
 		if (actualTitle.contentEquals(expectedTitle)) {
