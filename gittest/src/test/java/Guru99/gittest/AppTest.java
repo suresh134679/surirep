@@ -23,7 +23,7 @@ public class AppTest {
 		if (actualTitle.contentEquals(expectedTitle)) {
 			System.out.println("Test Passed!");
 		} else {
-			System.out.println("Test Failed");
+			System.out.println("Test Failed.....");
 		}
 
 	}
